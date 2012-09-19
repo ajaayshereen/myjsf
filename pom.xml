@@ -47,8 +47,10 @@
         <version>2.1</version>
         <configuration>
           <user>admin</user>
-          <adminPassword></adminPassword>
+          <passwordFile>C:\glassfish3\glassfish\domains\domain1\config\local-password</passwordFile>
           <glassfishDirectory>C:\glassfish3\glassfish\</glassfishDirectory>
+          <debug>true</debug>                                                   
+          <echo>true</echo>
           <components>
             <component>
               <name>${project.artifactId}</name>
